@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+/*-------------------------
+            INDEX
+---------------------------*/
+
+.index{
+    background-color: whitesmoke;
+}
+
+.selectorHome{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;    
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.selectorHome li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+ul li a {
+    display: inline-block;
+    justify-content: space-around;
+    font-family: 'Roboto';
+    font-size:10vw;
+    color: black;
+}
+
+.actividades a {
+    text-align: center;
+    background-color:orange ;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.alimentacion a{
+    background-color:yellow ;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.juegos a{
+    background-color:green;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------------
+    ACTIVIDADES
+-----------------------*/
+
+.body-acciones{
+    width: 100%;
+    height: 15%;
+    font-family: 'Roboto';
+}
+
+.atras-boton{
+    width: 100%;
+    font-size: 5vh;
+    margin: 1vh;
+}
+
+.atras-boton i{
+    float: left;
+    height: 0%;
+    color: black;
+    margin: 1%; 
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.perfil div{
+    display: inline-block;
+    text-align: center;
+}
+.acciones{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.acciones li{
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
